@@ -1,0 +1,2 @@
+pip install torchvision opencv-python scipy==1.1.0 dominate scikit-image
+python train.py --dataroot datasets/reflection --name IBCLN --model IBCLN --dataset_mode resize_natural_3   --no_flip   --gpu_id 0 --display_id -1
